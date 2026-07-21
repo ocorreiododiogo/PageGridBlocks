@@ -2,11 +2,11 @@
 
 namespace ProcessWire;
 
-class BlocksSequenz extends WireData implements Module {
+class BlocksSequence extends WireData implements Module {
 
   public static function getModuleInfo() {
     return [
-      'title' => 'Image Sequenz',
+      'title' => 'Image Sequence',
       'summary' => 'Installs Template and Fields for a PageGrid Block',
       'href' => 'https://page-grid.com/docs/blocks/',
       'author' => 'Jan Ploch',
@@ -14,8 +14,8 @@ class BlocksSequenz extends WireData implements Module {
       'autoload' => 'template=admin',
       'requires' => array('PageGridBlocks'),
       'version' => '0.0.1.2',
-      'pg_name' => 'pg_sequenz',
-      'pg_label' => 'Sequenz',
+      'pg_name' => 'pg_sequence',
+      'pg_label' => 'Sequence',
       'pg_description' => 'Renders an image sequence animation on HTML5 canvas. Creates flipbook-style animations by cycling through multiple image files.'
     ];
   }
