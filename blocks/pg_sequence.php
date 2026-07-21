@@ -1,9 +1,9 @@
 <?php namespace ProcessWire; ?>
 
 
-<?php if($page->pg_sequenz->first()) { ?>
+<?php if($page->pg_sequence->first()) { ?>
 
-<canvas id="pg-sequenz-canvas" data-count="<?= $page->pg_sequenz->count() ?>" data-url="<?= $page->pg_sequenz->url() ?>" data-type="jpg" />
+<canvas id="pg-sequence-canvas" data-count="<?= $page->pg_sequence->count() ?>" data-url="<?= $page->pg_sequence->url() ?>" data-type="jpg" />
 
 <!--load js inside backend-->
 <?php if($pagegrid->isBackend()){ 
